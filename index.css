@@ -1,0 +1,105 @@
+* {font-family: 'Amatic SC', cursive;}
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+   
+header{
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+   
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    background-attachment: fixed;
+    
+}
+    header h1{
+        padding: 5px 15px;
+        color: black;
+        text-align: center;
+        font-size: 70px;
+    
+        background-color:rgba(50, 50, 50, 0.418);
+        border-style: solid;
+        cursor: pointer;
+        transition: all 0.3s cubic-bezier(.68,.87,.89,.4);
+        box-shadow: 3px 6px;
+        }
+    header h1:hover { 
+        color: white}
+
+
+
+section{
+        background-color: white;
+        height: 100%;
+        display: flex;
+            flex-direction: row; 
+            justify-content: center;
+            align-items: center; 
+            min-height: 0%;
+            flex-wrap: wrap;
+           
+    }
+section h2{
+    color: aliceblue;
+    font-size: 50px;
+    border-style: solid;
+    margin: 10px;
+
+}
+
+article{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width : 300px;
+        margin: 22px;
+        padding: 0px 5px;
+        min-height: 0%;
+    height: 30%;
+    background-color: antiquewhite;
+    color: aliceblue;
+}
+
+
+h2:hover{
+    color: black
+}
+
+#article1{
+    background-image: url("img/tomates.jpg");
+    background-size: cover;
+    
+}
+
+#article2{
+    background-image: url("img/parmesan.jpg");
+    background-size: cover;
+}
+
+#article3{
+    background-image: url("img/poivre.jpeg");
+    background-size: cover;
+}
+
+#article4{
+    background-image: url("img/pates.jpeg");
+    background-size: cover;
+}     
+
+#article5{
+    background-image: url("img/outils.jpeg");
+    background-size: cover;
+}  
+#article6{
+    background-image: url("img/lemon2.jpg");
+    background-size: cover;
+}  
