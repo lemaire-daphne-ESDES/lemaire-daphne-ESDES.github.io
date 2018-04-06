@@ -6,7 +6,7 @@ html, body{
 
    
 header{
-    background-image: url("img/background.jpg");
+    background-image: url("img/experience.jpg");
     background-repeat: no-repeat;
     height: 100%;
    
@@ -19,9 +19,46 @@ header{
     background-attachment: fixed;
     
 }
+
+h1 {
+    font-size : 100px; 
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p{
+    font-size: 20px;
+}
+
+#menu{
+    background-color: rgb(5, 5, 5);
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.btn {
+background-color: rgba(252, 252, 252, 0);
+border-color: rgba(248, 245, 245, 0);
+cursor: pointer;
+}
+
+.btn :hover {
+  color:gray;
+}
+
+.btn2 {
+    background-color: rgba(240, 248, 255, 0); 
+    margin: 10px;
+
+} 
     header h1{
         padding: 5px 15px;
-        color: black;
+        color: pink;
         text-align: center;
         font-size: 70px;
     
@@ -35,71 +72,127 @@ header{
         color: white}
 
 
+        #photo{
+            background-image: url("img/photo.png");
+            background-size: cover;
+            height: 70%;}
 
-section{
+        #description{
+            color: black
+        }
+
+
+#formation{
         background-color: white;
         height: 100%;
         display: flex;
-            flex-direction: row; 
-            justify-content: center;
-            align-items: center; 
-            min-height: 0%;
-            flex-wrap: wrap;
-           
-    }
-section h2{
-    color: aliceblue;
-    font-size: 50px;
-    border-style: solid;
-    margin: 10px;
-
-}
-
-article{
-    display: flex;
-        flex-direction: column;
+        flex-direction: column; 
         justify-content: center;
-        align-items: center;
-        width : 300px;
-        margin: 22px;
-        padding: 0px 5px;
+        align-items: center; 
         min-height: 0%;
-    height: 30%;
-    background-color: antiquewhite;
-    color: aliceblue;
+        flex-wrap: wrap;
+        
+    }
+
+
+    #articleforma {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center; 
+        min-height: 0%;
+        flex-wrap: wrap;
+        
+    }  
+
+    #formation article {
+        padding: 10px;
+        margin: 50px;
+        background-color: pink;
+        width: 100%;
+        height: 10%;
+        border-radius : 10%;
+        box-shadow: 23px -16px teal;
+        
+    }
+ 
+    #texte p {
+    font-size: 20px;
 }
 
-
-h2:hover{
-    color: black
-}
-
-#article1{
-    background-image: url("img/tomates.jpg");
+#experiences{
+    background-image: url("img/clavier.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+   
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
     
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    min-height: 0%;
+    flex-wrap: nowrap;  
+    }
+    #articleexp {
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center; 
+        min-height: 0%;
+        flex-wrap: nowrap;
+        width: 80%;
+    
+    }  
+#experiences article {
+    padding: 60px;
+    margin: 50px;
+    border : solid 1px black;
+    border-radius: 150%;
+}
+    
+
+#competences{
+    background-color: white;
+    height: 100%;
+    display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center; 
+        min-height: 0%;
+        flex-wrap: nowrap;  
+        }
+#competences article {
+    padding: 10px;
+    margin: 50px;
+    height: 300px;
+    width: 300px;
 }
 
-#article2{
-    background-image: url("img/parmesan.jpg");
-    background-size: cover;
+#articlecompetences {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center; 
+    min-height: 0%;
+    flex-wrap: wrap;
+
 }
 
-#article3{
-    background-image: url("img/poivre.jpeg");
-    background-size: cover;
-}
-
-#article4{
-    background-image: url("img/pates.jpeg");
-    background-size: cover;
-}     
-
-#article5{
-    background-image: url("img/outils.jpeg");
+#indesign {
+    background-image: url("img/photoshop.jpg");
     background-size: cover;
 }  
-#article6{
-    background-image: url("img/lemon2.jpg");
+
+#travailequipe {
+    background-image: url("img/equipe.jpeg");
     background-size: cover;
-}  
+}
+
+#creativite {
+    background-image: url("img/creativite.jpeg");
+    background-size: cover;
+}
