@@ -1,0 +1,198 @@
+* {font-family: 'Amatic SC', cursive;}
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+   
+header{
+    background-image: url("img/experience.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+   
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    background-attachment: fixed;
+    
+}
+
+h1 {
+    font-size : 100px; 
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p{
+    font-size: 20px;
+}
+
+#menu{
+    background-color: rgb(5, 5, 5);
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.btn {
+background-color: rgba(252, 252, 252, 0);
+border-color: rgba(248, 245, 245, 0);
+cursor: pointer;
+}
+
+.btn :hover {
+  color:gray;
+}
+
+.btn2 {
+    background-color: rgba(240, 248, 255, 0); 
+    margin: 10px;
+
+} 
+    header h1{
+        padding: 5px 15px;
+        color: pink;
+        text-align: center;
+        font-size: 70px;
+    
+        background-color:rgba(50, 50, 50, 0.418);
+        border-style: solid;
+        cursor: pointer;
+        transition: all 0.3s cubic-bezier(.68,.87,.89,.4);
+        box-shadow: 3px 6px;
+        }
+    header h1:hover { 
+        color: white}
+
+
+        #photo{
+            background-image: url("img/photo.png");
+            background-size: cover;
+            height: 70%;}
+
+        #description{
+            color: black
+        }
+
+
+#formation{
+        background-color: white;
+        height: 100%;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center; 
+        min-height: 0%;
+        flex-wrap: wrap;
+        
+    }
+
+
+    #articleforma {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center; 
+        min-height: 0%;
+        flex-wrap: wrap;
+        
+    }  
+
+    #formation article {
+        padding: 10px;
+        margin: 50px;
+        background-color: pink;
+        width: 100%;
+        height: 10%;
+        border-radius : 10%;
+        box-shadow: 23px -16px teal;
+        
+    }
+ 
+    #texte p {
+    font-size: 20px;
+}
+
+#experiences{
+    background-image: url("img/clavier.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+   
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    min-height: 0%;
+    flex-wrap: nowrap;  
+    }
+    #articleexp {
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center; 
+        min-height: 0%;
+        flex-wrap: nowrap;
+        width: 80%;
+    
+    }  
+#experiences article {
+    padding: 60px;
+    margin: 50px;
+    border : solid 1px black;
+    border-radius: 150%;
+}
+    
+
+#competences{
+    background-color: white;
+    height: 100%;
+    display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center; 
+        min-height: 0%;
+        flex-wrap: nowrap;  
+        }
+#competences article {
+    padding: 10px;
+    margin: 50px;
+    height: 300px;
+    width: 300px;
+}
+
+#articlecompetences {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center; 
+    min-height: 0%;
+    flex-wrap: wrap;
+
+}
+
+#indesign {
+    background-image: url("img/photoshop.jpg");
+    background-size: cover;
+}  
+
+#travailequipe {
+    background-image: url("img/equipe.jpeg");
+    background-size: cover;
+}
+
+#creativite {
+    background-image: url("img/creativite.jpeg");
+    background-size: cover;
+}
