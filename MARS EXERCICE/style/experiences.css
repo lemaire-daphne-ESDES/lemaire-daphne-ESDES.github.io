@@ -1,0 +1,76 @@
+* {font-family: 'Amatic SC', cursive;}
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+#home{
+    background-image: url("../img/palette.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+li {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+article p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+article h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: flex-start; 
+    height: 50%;
+}
+
+#menu article {
+    height: 100%;
+    width: 33.33%;
+    background-color: rgba(128, 128, 128, 0);
+    margin: 2%;
+}
+
+#april img {
+    height: 700%;
+    width: 70%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: flex-start; 
+    height: 50%;
+
+}
+#april2 img {
+    height: 700%;
+    width: 70%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: flex-start; 
+    height: 50%;
+
+}
+#SEB img {
+    height: 700%;
+    width: 70%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: flex-start; 
+    height: 50%;
+
+}

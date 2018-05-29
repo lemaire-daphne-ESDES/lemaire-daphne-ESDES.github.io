@@ -4,12 +4,27 @@ html, body{
     margin: 0;
 }
 
-   
 header{
+    background-color: rgb(5, 5, 5);
+    width: 100%;
+    height: 5%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center; 
+    color: white;
+    position: fixed;
+}
+
+header p {
+    color: white;
+    font-size: 35px;
+}
+
+#home{
     background-image: url("img/experience.jpg");
     background-repeat: no-repeat;
     height: 100%;
-   
     background-size: cover;
     background-position: center;
     display: flex;
@@ -22,6 +37,7 @@ header{
 
 h1 {
     font-size : 100px; 
+    animation: enter 3s ease-in-out;
 }
 
 h2 {
@@ -32,14 +48,6 @@ p{
     font-size: 20px;
 }
 
-#menu{
-    background-color: rgb(5, 5, 5);
-    width: 100%;
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;
-    align-items: center; 
-}
 
 .btn {
 background-color: rgba(252, 252, 252, 0);
@@ -51,14 +59,12 @@ cursor: pointer;
   color:gray;
 }
 
-.btn2 {
-    background-color: rgba(240, 248, 255, 0); 
-    margin: 10px;
 
-} 
-    header h1{
+
+/** HOME **/
+    #home h1{
         padding: 5px 15px;
-        color: pink;
+        color: rgb(243, 239, 241);
         text-align: center;
         font-size: 70px;
     
@@ -68,8 +74,8 @@ cursor: pointer;
         transition: all 0.3s cubic-bezier(.68,.87,.89,.4);
         box-shadow: 3px 6px;
         }
-    header h1:hover { 
-        color: white}
+    #home h1:hover { 
+        color: rgb(226, 35, 162)}
 
 
         #photo{
@@ -81,50 +87,70 @@ cursor: pointer;
             color: black
         }
 
-
+/** FORMATION **/
 #formation{
+        min-height: 80%;
         background-color: white;
-        height: 100%;
         display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center; 
+        flex-wrap: nowrap;
+        
+    }
+#titreintro{
+        display: flex; 
         flex-direction: column; 
         justify-content: center;
         align-items: center; 
-        min-height: 0%;
-        flex-wrap: wrap;
-        
-    }
-
-
-    #articleforma {
-        display: flex;
-        flex-direction: column; 
-        justify-content: center;
-        align-items: center; 
-        min-height: 0%;
-        flex-wrap: wrap;
-        
-    }  
-
-    #formation article {
-        padding: 10px;
-        margin: 50px;
-        background-color: pink;
-        width: 100%;
-        height: 10%;
-        border-radius : 10%;
-        box-shadow: 23px -16px teal;
-        
-    }
- 
-    #texte p {
-    font-size: 20px;
+        flex-wrap: nowrap;
 }
 
-#experiences{
-    background-image: url("img/clavier.jpg");
-    background-repeat: no-repeat;
+#articleforma {
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-between;
+        align-items: flex-start; 
+        
+        flex-wrap: wrap;
+        
+}  
+
+#formation article {
+        padding: 10px;
+        margin: 50px;
+        background-color: rgba(37, 213, 219, 0.973);
+        width: 100%;
+        height: 100%;
+        box-shadow: 15px -10px rgba(53, 248, 255, 0.164);
+    
+}
+
+#formation article:hover {
+    padding: 10px;
+    margin: 50px;
+    background-color: rgba(53, 248, 255, 0.164);
+    width: 100%;
     height: 100%;
-   
+    box-shadow: 15px -10px rgba(37, 213, 219, 0.973);
+
+}
+ 
+    #texteforma {
+    font-size: 23px;
+    margin: 20px;
+}
+
+#texteforma p {
+    font-family:'Times New Roman', Times, serif;
+}
+    
+    
+
+/** EXPERIENCE **/ 
+#experiences{
+    background-image: url("img/couleur.jpeg");
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -134,37 +160,52 @@ cursor: pointer;
     flex-direction: column; 
     justify-content: center;
     align-items: center; 
-    min-height: 0%;
+    min-height: 70%;
     flex-wrap: nowrap;  
     }
     #articleexp {
-        display: flex;
-        flex-direction: row; 
-        justify-content: center;
-        align-items: center; 
-        min-height: 0%;
-        flex-wrap: nowrap;
-        width: 80%;
-    
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center; 
+    min-height: 100%;
+    flex-wrap: nowrap;
+    width: 80%; 
     }  
-#experiences article {
-    padding: 60px;
-    margin: 50px;
-    border : solid 1px black;
-    border-radius: 150%;
+ 
+
+.exp:hover {
+    background-color: rgba(82, 77, 77, 0.5); 
+    color: rgb(14, 13, 13);
+    border: solid 0px;
 }
     
+#experiences article {
+    padding: 5%;
+    margin: 2%;
+    border : solid 0sspx black;
+    
+}
 
+#experiences h1 {
+    color: white
+}
+
+#experiences h2 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/** COMPETENCES **/
 #competences{
     background-color: white;
-    height: 100%;
     display: flex;
-        flex-direction: column; 
-        justify-content: center;
-        align-items: center; 
-        min-height: 0%;
-        flex-wrap: nowrap;  
-        }
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    min-height: 100%;
+    flex-wrap: nowrap;  
+    }
 #competences article {
     padding: 10px;
     margin: 50px;
@@ -172,7 +213,7 @@ cursor: pointer;
     width: 300px;
 }
 
-#articlecompetences {
+#articlecomp {
     display: flex;
     flex-direction: row; 
     justify-content: center;
@@ -196,3 +237,43 @@ cursor: pointer;
     background-image: url("img/creativite.jpeg");
     background-size: cover;
 }
+
+/** Responsive **/ 
+/**Mobile**/ 
+@media screen and (max-width:600px){
+    #articleexp {
+        flex-wrap: nowrap;
+        flex-direction: column
+    } 
+    #formation{
+        flex-wrap: nowrap;
+        flex-direction: column 
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px){
+    #formation article {
+        width: 80%;
+    }
+    #articleforma {
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    #formation {
+        flex-direction: column;
+     }
+}
+
+/** ANIMATION **/ 
+@keyframes enter {
+from {
+    opacity: 0;
+    transform: translateY(100px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0px);
+}
+} 
+
