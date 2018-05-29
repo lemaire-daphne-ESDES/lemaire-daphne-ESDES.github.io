@@ -89,14 +89,14 @@ cursor: pointer;
 
 /** FORMATION **/
 #formation{
-        min-height: 80%;
-        background-color: white;
+        min-height: 60%;
+        background-color: rgba(255, 255, 255, 0.356);
         display: flex;
         flex-direction: row; 
         justify-content: center;
         align-items: center; 
         flex-wrap: nowrap;
-        
+       
     }
 #titreintro{
         display: flex; 
@@ -109,9 +109,9 @@ cursor: pointer;
 #articleforma {
         display: flex;
         flex-direction: column; 
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: flex-start; 
-        
+
         flex-wrap: wrap;
         
 }  
@@ -123,6 +123,7 @@ cursor: pointer;
         width: 100%;
         height: 100%;
         box-shadow: 15px -10px rgba(53, 248, 255, 0.164);
+        border-radius: 10px;
     
 }
 
@@ -160,7 +161,7 @@ cursor: pointer;
     flex-direction: column; 
     justify-content: center;
     align-items: center; 
-    min-height: 70%;
+    min-height: 90%;
     flex-wrap: nowrap;  
     }
     #articleexp {
@@ -183,7 +184,6 @@ cursor: pointer;
 #experiences article {
     padding: 5%;
     margin: 2%;
-    border : solid 0sspx black;
     
 }
 
