@@ -7,6 +7,7 @@ a{
 
 html, body{
     height: 100%;
+    width: 100%;
     margin: 0;
 }
 
@@ -96,7 +97,8 @@ cursor: pointer;
 /** FORMATION **/
 #formation{
         min-height: 60%;
-        background-color: rgba(255, 255, 255, 0.356);
+        width: 100%;
+        background-color: rgb(116, 142, 156);
         display: flex;
         flex-direction: row; 
         justify-content: center;
@@ -111,41 +113,62 @@ cursor: pointer;
         align-items: center; 
         flex-wrap: nowrap;
 }
+.titreintro img{
+    border-radius: 50px;
+    
+}
 
+
+/**PARTIE DROITE**/
 #articleforma {
         display: flex;
         flex-direction: column; 
         justify-content: space-around;
         align-items: flex-start; 
-
         flex-wrap: wrap;
+        min-width: 45%;
+        margin: 10px;
         
 }  
 
+#articleforma p{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex; 
+    justify-content: center;
+}
+
+#articleforma h2{
+    display: flex; 
+    justify-content: center;
+}
+
+/**INTERIEUR DE PARTIE DROITE**/
 #formation article {
-        padding: 10px;
-        margin: 50px;
-        background-color: rgba(37, 213, 219, 0.973);
+        margin-top: 10%;
+        margin-bottom: 5%;
+        background-color: rgba(255, 255, 255, 0.973);
         width: 100%;
         height: 100%;
-        box-shadow: 15px -10px rgba(53, 248, 255, 0.164);
         border-radius: 10px;
     
 }
 
 #formation article:hover {
-    padding: 10px;
-    margin: 50px;
     background-color: rgba(53, 248, 255, 0.164);
     width: 100%;
     height: 100%;
-    box-shadow: 15px -10px rgba(37, 213, 219, 0.973);
-
+   
 }
  
-    #texteforma {
+
+#texteforma {
     font-size: 23px;
     margin: 20px;
+    color: white;
+}
+
+#formation h1 {
+    color: white;
 }
 
 #texteforma p {
