@@ -60,13 +60,27 @@ p{
 background-color: rgba(252, 252, 252, 0);
 border-color: rgba(248, 245, 245, 0);
 cursor: pointer;
+font-size : 100px; 
+animation: enter 3s ease-in-out;
+color: white;
 }
 
 .btn :hover {
   color:gray;
 }
 
+#btncomp{
+background-color: rgba(252, 252, 252, 0);
+border-color: rgba(248, 245, 245, 0);
+cursor: pointer;
+font-size : 100px; 
+animation: enter 3s ease-in-out;
+color: rgb(7, 7, 7);
+}
 
+#btncomp:hover{
+    color:gray;
+}
 
 /** HOME **/
     #home h1{
