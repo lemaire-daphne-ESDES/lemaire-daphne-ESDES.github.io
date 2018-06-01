@@ -18,7 +18,7 @@ a{
 }
 
 li {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Amaranth', sans-serif;
     color: white;
 }
 
@@ -33,7 +33,7 @@ p {
 
 h2{
     font-family: 'Amaranth', sans-serif;
-    color: white;
+    color: rgb(33, 128, 128);
 }
 
 
@@ -77,9 +77,6 @@ h4{
     min-height: 100%;
 }
 
-#alternance:hover{
-    background-color: rgba(240, 248, 255, 0.24);
-}
 
 #photoalternance{
     height: 100%;
@@ -107,9 +104,7 @@ h4{
     min-height: 50%;
 }
 
-#stageapril:hover{
-    background-color: rgba(240, 248, 255, 0.24);
-}
+
 
 
 #photostageapril{
@@ -131,13 +126,10 @@ h4{
     min-height: 50%;
 }
 
-#stageSEB:hover{
-    background-color: rgba(240, 248, 255, 0.24);
-}
 
 #photostageSEB{
-    height: 300px;
-    width: 300px;
+    height:100%;
+    width: 30ù;
 }
 
 #texteastageSEB {
