@@ -134,7 +134,7 @@ cursor: pointer;
 #articleforma p{
     font-family: 'Times New Roman', Times, serif;
     display: flex; 
-    justify-content: center;
+    
     color: white;
 }
 
@@ -237,21 +237,36 @@ cursor: pointer;
     min-height: 100%;
     flex-wrap: nowrap;  
     }
-#competences article {
-    padding: 10px;
-    margin: 50px;
-    height: 300px;
-    width: 300px;
-}
+
 
 #articlecomp {
     display: flex;
     flex-direction: row; 
+    justify-content: space-between;
+    align-items:center; 
+    flex-wrap: wrap;
+    
+
+}
+
+#competences article {
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#textecompetence p {
+    font-family: 'Amaranth', sans-serif;
+    text-justify: distribute-all-lines;
+}
+
+#textecompetence {
+    display: flex;
+    flex-direction: row; 
     justify-content: center;
     align-items: center; 
-    min-height: 0%;
     flex-wrap: wrap;
-
 }
 
 #indesign {
