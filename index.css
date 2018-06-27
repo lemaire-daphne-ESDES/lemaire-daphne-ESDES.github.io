@@ -59,6 +59,11 @@ p{
     font-size: 20px;
 }
 
+b{
+    font-family: 'Amaranth', sans-serif;
+    color: grey;
+   
+}
 
 .btn {
 background-color: rgba(252, 252, 252, 0);
