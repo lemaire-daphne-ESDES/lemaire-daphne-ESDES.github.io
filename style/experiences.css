@@ -28,6 +28,7 @@ h1{
 
 p {
     font-family: 'Amaranth', sans-serif;
+
     color: white;
 }
 
@@ -39,13 +40,22 @@ h2{
 
  h3 {
     font-family: 'Amaranth', sans-serif;
-    color: white;
+    color:  rgb(209, 63, 173);
 }
 
 h4{
     font-family: 'Amaranth', sans-serif;
     font-style: italic;
     color: white;
+}
+
+h5{
+    font-family: 'Amaranth', sans-serif;
+}
+
+b{
+    font-family: 'Amaranth', sans-serif;
+    color: rgb(160, 224, 224);
 }
 #menu {
     display: flex;
