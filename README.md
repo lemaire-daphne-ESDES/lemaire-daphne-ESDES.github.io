@@ -17,11 +17,14 @@ Le but est d'avoir une présentation de mon CV de façon claire et ludique
  
  Mes compétences : 3 photos qui representent mes compétences + description de comment j'ai acquérie ces compétences 
  
+ Footer : me contacter sur les réseaux sociaux + visiter des CV similaires 
+ 
  Reference : (http://tonyrambaud-graphiste.fr/ 
      
 Focus sur chaques nouvelles pages : 
-      - Page Ma Formation : 
+      - Page Ma Formation : Envie de mettre des couleurs et d'être assez bref. 
       - Mes experiences : Inspiration : http://preview.themeforest.net/item/material-cv-resume-vcard/full_screen_preview/13703959 (pour le fond) 
-      - Mes compétences : reprendre les icones. 
+      Détail de toutes mes experiences
+      - Mes compétences : reprendre le même format que ma formation avec trois photos 
    
      
